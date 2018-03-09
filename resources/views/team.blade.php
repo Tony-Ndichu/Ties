@@ -3,7 +3,7 @@
 @section('content')
 
 
-<div class="centered" style="margin-top: 2%;">
+<div class="centeredthird" style="margin-top: 0%;">
 	<img src="{{ URL::to('/images/chart.svg') }}"  class="svg">
 </div>
 

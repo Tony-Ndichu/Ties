@@ -75,7 +75,7 @@
 
 </div>
 
-<div class="quotebox"><p class="quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p></div>
+<div class="quotebox"><p class="quote"><strong>2ND TIMOTHY 2:15</strong>     :Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth.</p></div>
 
 
 </div>
@@ -85,13 +85,14 @@
 
 <div class="rightcolumn">
 	<ul class="holdright">
-		<li class="trend">Sed ut perspiciatis un</li>
-		<li class="trend">Seos qui ratione voluptatem </li>
-		<li class="trend">Iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi archite</li>
-		<li class="trend">Ugit, sed qui</li>
-		<li class="trend">Luptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tem</li>
-		<li class="trend">Tem accusantium </li>
-		<li class="trend">Am, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi con</li>
+		<li class="trend">Progress meeting 2018</li>
+		<li class="trend">K-Ties mission and vision statements</li>
+		<li class="trend">The new government laws on the building of new city buildings as per the constitution </li>
+		<li class="trend">Construction safety tips that every person should be aware about</li>
+		<li class="trend">The new Labour laws in the country and how they affect the future of the construction industry</li>
+		<li class="trend">Health riskks faced by construction workers and how to avoid illness.</li>
+		<li class="trend">K-Ties partnership with suitable brands and orgnzaizations</li>
+		
 	</ul>
 </div>
 

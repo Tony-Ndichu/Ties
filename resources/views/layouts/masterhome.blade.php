@@ -9,7 +9,6 @@
     <link href="{{ asset('css/master.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/crop.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/master.css') }}" rel="stylesheet">
     <link href="{{ asset('css/clock.css') }}" rel="stylesheet">
     <link href="{{ asset('css/liMarquee.css') }}" rel="stylesheet">
 
@@ -60,10 +59,11 @@
     
  
 </head>
-<body >
+<body  >
     <div id="app">
         <nav class="navbar navbar-default navbar-static-top" id="color">
-          div class="contained">
+            <div class="contained">
+          
                 <div class="navbar-header">
 
                     <!-- Collapsed Hamburger -->
@@ -93,7 +93,7 @@
                         <!-- Authentication Links -->
                         @guest
                             <li><a id ="white" href="{{ route('login') }}">Login</a></li>
-                            <li><a id="white" href="{{ route('register') }}">Register</a></li>
+                            <li><a id ="white" href="{{ route('register') }}">Register</a></li>
                         @else
                             <li class="dropdown" id="color">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" style="color:white; background-color: #551A8B !important;">
@@ -117,9 +117,11 @@
                         @endguest
                     </ul>
                 </div>
+            </div>
 
-                
-</div>
+                <!-- Middle Of Navbar -->
+        
+
 
         </nav>
 
@@ -129,13 +131,7 @@
         @yield('content')
     </div>
 
-<div class="footer">
-        <a href="#" class="medialinks"><i class="fab fa-facebook-square"></i></a>
-        <a href="#" class="medialinks"><i class="fab fa-twitter-square"></i></a>
-        <a href="#" class="medialinks"><i class="fab fa-instagram"></i></a>
-        <a href="#" class="medialinks"><i class="fab fa-skype"></i></a>
-        <a href="#" class="medialinks"><i class="fab fa-twitter-square"></i></a>
-        <a href="#" class="medialinks"><i class="fab fa-youtube"></i></a>
+
 </div>
 
     <!-- Scripts -->

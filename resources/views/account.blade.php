@@ -56,7 +56,7 @@
 
             		<a href="{{ route('edit') }} "><button type="button" class="btn btn-info btn-md" style="margin-bottom: 2%;">Edit account</button></a>
 
-            		@if(Auth::user()->typetwo == 'jober')
+            		@if(Auth::user()->typeone == 'jober')
             		<a href="{{ route('works') }} "><button type="button" class="btn btn-info btn-md" style="margin-bottom: 2%;">Previous jobs</button></a>
             		@endif
             </div>
