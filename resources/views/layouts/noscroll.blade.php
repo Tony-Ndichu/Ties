@@ -47,7 +47,7 @@
 </script>
 
   
-  
+  </script></script>
 
 
 
@@ -121,17 +121,52 @@
 
                 <!-- Middle Of Navbar -->
                      <div class="linkbox" id="myTopnav">
+
+        <div class="reders @if(Route::is('kties'))active @endif">
             <a href="{{ route('kties') }}" class="link">Home</a>
+        </div>
+
+
+        <div class="reders @if(Route::is('projects'))active @endif">
             <a href="{{ route('projects') }}" class="link">Projects</a>
+        </div>
+
+        <div class="reders @if(Route::is('hire_us'))active @endif">
             <a href="{{ route('hire_us') }}" class="link">Hire Us</a>
+        </div>
+
+        <div class="reders @if(Route::is('shop'))active @endif">
             <a href="{{ route('shop') }} " class="link">Shop</a>
+        </div>
+
+        <div class="reders @if(Route::is('services'))active @endif">
             <a href="{{ route ('services') }} " class="link">Services</a>
+        </div>
+
+        <div class="reders @if(Route::is('team'))active @endif">
             <a href="{{ route('team') }}" class="link">Team</a>
+        </div>
+
+        <div class="reders @if(Route::is('about'))active @endif">
             <a href="{{ route('about_us') }}" class="link">About</a>
+        </div>
+
+        <div class="reders @if(Route::is('careers'))active @endif">
             <a href="" class="link">Careers</a>
+        </div>
+
+        <div class="reders @if(Route::is('contact'))active @endif">
             <a href="{{ route('contact') }}" class="link">Contact</a>
+        </div>
+
+        <div class="reders @if(Route::is('account'))active @endif">
             <a href="account" class="link">Account</a>
+        </div>
+
+        <div class="reders @if(Route::is('sacco'))active @endif">
             <a class="link">Sacco</a>
+        </div>
+
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
 

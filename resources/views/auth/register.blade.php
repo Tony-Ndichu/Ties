@@ -53,6 +53,8 @@
                             </div>
                         </div>
 
+                 
+
                         <div class="form-group">
                             <label for="password-confirm" class="col-md-4 control-label">Confirm Password</label>
 
@@ -60,6 +62,22 @@
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
                             </div>
                         </div>
+
+                                <div class="form-group{{ $errors->has('telephone') ? ' has-error' : '' }}">
+                    <label for="telephone" class="col-md-4 control-label">Telephone number</label>
+
+                          <div class="col-md-6">
+                                <input id="telephone" type="tel" class="form-control" name="telephone" required>
+                                 @if ($errors->has('telephone'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('telephone') }}</strong>
+                                    </span>
+                                @endif
+
+                            </div>
+                        </div>
+
+                        
 
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">

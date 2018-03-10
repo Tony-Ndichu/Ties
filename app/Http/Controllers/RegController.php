@@ -19,6 +19,9 @@ class RegController extends Controller
 
   public function answertwo(Request $request){
 
+
+
+
     $user = Auth::user()->id;
     $type = request('type');
 
@@ -78,6 +81,8 @@ class RegController extends Controller
     }
 
      public function located(Request $request){
+
+        
          $id = Auth::user()->id;
          $loc = User::find($id);
          $loc->county = request('county');

@@ -299,8 +299,7 @@ ul.holdright{
 	background-color: white;
 	overflow: auto;
 	box-shadow: 0 0 1rem 0.5rem rgba(0,0,0,0.24);
-
-	
+	border-radius: 5%;	
 }
 
 
@@ -516,15 +515,7 @@ width:100%;
 	margin-left: 20%;
 }
 
-.linkbox{
-	overflow: hidden;
-	display: flex;
-	width: 80%;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content:center;
-	margin: 0 auto; 
-}
+
 
 .linkbox a{
 	text-decoration: none;
@@ -832,6 +823,44 @@ width:100%;
 
 }
 
+.reders.active{
+	color: red;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: white;
+	margin-bottom: 0;
+	flex-basis: 9%;
+	text-align: center;
+
+}
+
+.reders a{
+	text-decoration: none !important;
+	color:white;
+	font-weight:bold;
+	font-size: 100%;
+	text-align: center !important;
+
+
+}
+
+.reders a:hover{
+	color:red;
+}
+
+.linkbox{
+	overflow: hidden;
+	width:80%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content:space-evenly;
+	margin: 0 auto; 
+}
+
+.linkbox a{
+	text-decoration: none;
+}
 
 
 @media screen and (min-width:700px ){
@@ -862,15 +891,15 @@ width:100%;
 .holdleft a{
 	text-decoration: none;
 	color:white;
-	padding: 25%;
-
+	padding: 10%;
+	box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.7);
 }
 
 .holdleft a:hover{
 	color:white;
 }
 
-}
+
 
 #lefter{
 	margin: 2%;

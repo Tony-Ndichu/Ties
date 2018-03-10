@@ -13,13 +13,13 @@
    
 
             	<label for="name">County:</label>
-        <input type="text" class="form-control pushdown"  placeholder="County" name="county" />
+        <input type="text" class="form-control pushdown"  placeholder="County" name="county" required />
 
             	<label for="email">Sub-county: </label>
-            	 <input type="text" class="form-control pushdown" placeholder="Subcounty" name="subcounty" >
+            	 <input type="text" class="form-control pushdown" placeholder="Subcounty" name="subcounty" required >
 
             	 <label for="name">Ward:</label>
-        <input type="text" class="form-control pushdown" placeholder="ward" name="ward" />
+        <input type="text" class="form-control pushdown" placeholder="ward" name="ward" required/>
 
 			  <input  type="submit"   style="margin-top: 4%;" class="btn btn-primary button" value="Update"/>
 

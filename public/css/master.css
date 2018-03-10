@@ -54,6 +54,11 @@ ul.holdright{
 .content{
 	background-color: white;
 	width: 100%;	
+	padding-top: 1%;
+	padding-bottom: 5%;
+	background: url("../images/back.jpg");
+	overflow: hidden;
+
 }
 
 .content2{
@@ -311,6 +316,7 @@ ul.holdright{
 	box-shadow: 0 0 1rem 0.5rem rgba(0,0,0,0.24);
 	border-radius: 5px;
 	overflow: hidden;
+	background-color: white;
 
 }
 
@@ -520,7 +526,7 @@ width:100%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content:center;
+	justify-content:space-evenly;
 	margin: 0 auto; 
 }
 
@@ -528,25 +534,7 @@ width:100%;
 	text-decoration: none;
 }
 
-a.link{
-	text-decoration: none !important;
-	flex-basis: 9%;
-	color:white;
-	font-weight:bold;
-	font-size: 100%;
-	margin-bottom: 5px;
-	text-align: center;
 
-}
-
-a.link:hover{
-	color:white;
-	border-bottom-style: solid;
-	border-bottom-width: 2px;
-	border-bottom-color: white;
-	margin-bottom: 0;
-
-}
 
 .linkbox .icon {
 	display: none;
@@ -876,11 +864,48 @@ background: url("../images/set.jpg");
 	background-repeat:no-repeat;
 background-size: cover;
 background-position: center;
+}
+
+
+
+.reders.active{
+	color: red;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: white;
+	margin-bottom: 0;
+	flex-basis: 9%;
+	text-align: center;
+
+}
+
+.reders a{
+	text-decoration: none !important;
+	color:white;
+	font-weight:bold;
+	font-size: 100%;
+	text-align: center !important;
 
 
 }
 
+.reders a:hover{
+	color:red;
+}
 
+a.link{
+	text-decoration: none !important;
+	flex-basis: 9%;
+	color:white;
+	font-weight:bold;
+	font-size: 100%;
+	margin-bottom: 5px;
+	text-align: center;
+
+}
+a.link:hover{
+	color: white;
+}
 @media screen and (min-width:700px ){
 
 .holdleft a{
@@ -895,8 +920,13 @@ background-position: center;
 
 .pointsright{
 	float:right;
-	width:40%;
-	margin:5%;
+	width:50%;
+	padding-bottom: 10%;
+	text-align: left;
+	background-color: white;
+	opacity: 0.9;
+	margin-bottom: 0%;
+	bottom: 0%;
 }
 
 .iframeleft{
@@ -1041,8 +1071,11 @@ background-position: center;
 	color:white;
 	font-weight:bold;
 	font-size: 100%;
+	text-align:center !important;
 
 }
+
+
 
 
 .branddiv{

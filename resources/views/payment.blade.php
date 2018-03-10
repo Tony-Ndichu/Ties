@@ -19,7 +19,7 @@
 <label for="mpesa" class="black">To complete your registration , please transfer Ksh.300 to paybill number <strong>45372</strong> and enter the confirmation code below:</label>
 
 @endif
-        <input type="text" class="form-control" placeholder="MPESA code e.g MF089BF89G " name="mpesa"  />
+        <input type="text" class="form-control" placeholder="MPESA code e.g MF089BF89G " name="mpesa"  required />
     
  
 

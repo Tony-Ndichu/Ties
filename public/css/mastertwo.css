@@ -206,6 +206,8 @@ ul.holdright{
 	color:white;
 }
 
+
+
 .upload{
 	width:30%;
 	margin: 0 auto;
@@ -502,12 +504,14 @@ width:100%;
 }
 
 .linkbox{
+	
+
 	overflow: hidden;
 	width:80%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content:center;
+	justify-content:space-evenly;
 	margin: 0 auto; 
 	
 }
@@ -527,14 +531,7 @@ a.link{
 
 }
 
-a.link:hover{
-	color:white;
-	border-bottom-style: solid;
-	border-bottom-width: 2px;
-	border-bottom-color: white;
-	margin-bottom: 0;
 
-}
 
 
 .linkbox .icon {
@@ -591,7 +588,40 @@ a.link:hover{
 	margin-right: 3%;
 }
 
+.reders.active{
+	color: red;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: white;
+	margin-bottom: 0;
+	flex-basis: 9%;
+	text-align: center;
+
+}
+
+.reders a{
+	text-decoration: none !important;
+	color:white;
+	font-weight:bold;
+	font-size: 100%;
+	text-align: center !important;
+
+
+}
+
+.reders a:hover{
+	color: white;
+}
+
+a.hover{
+	color: white;
+}
+
 @media screen and (min-width:700px ){
+
+	
+
+
 
 .def{
 	font-family: sans-serif;
